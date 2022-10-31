@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Second">
+    <TextView
+        android:id="@+id/tv_konfir_pen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KONFIRMASI PENDAFTARAN"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/purple_500"
+        />
+
+    <TextView
+        android:id="@+id/tv_nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_below="@id/tv_konfir_pen"
+        android:text="Nama"
+        />
+
+    <TextView
+        android:id="@+id/tv_no_pend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_below="@id/tv_nama"
+        android:text="Nomor Pendaftaran"
+        />
+    <TextView
+        android:id="@+id/tv_jalur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_below="@id/tv_no_pend"
+        android:text="Tes tertulis"
+        />
+
+
+</RelativeLayout>
